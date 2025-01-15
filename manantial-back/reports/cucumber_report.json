@@ -1,0 +1,704 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "funcionalidad--de-formulario-de-eventos;crear-un-evento-valido",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "crear un evento valido",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "pagina de usuarios para eventos",
+            "match": {
+              "location": "test\\steps\\registrarEvento.step.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4177450100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Clic en eventos",
+            "match": {
+              "location": "test\\steps\\registrarEvento.step.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 971906100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "llenar datos del evento",
+            "match": {
+              "location": "test\\steps\\registrarEvento.step.js:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1588679900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "debería registrarse el evento",
+            "match": {
+              "location": "test\\steps\\registrarEvento.step.js:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 999899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@crearEvento",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "funcionalidad--de-formulario-de-eventos",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Funcionalidad  de formulario de eventos",
+    "tags": [
+      {
+        "name": "@crearEvento",
+        "line": 1
+      }
+    ],
+    "uri": "features\\CrearEvento.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "funcionalidad--de-formulario-de-eventos;crear-un-evento-incorrecto",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "crear un evento incorrecto",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "pagina de usuarios para eventos para validar",
+            "match": {
+              "location": "test\\steps\\registrarEventoIncorrecto.step.js:7"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 4145805599,
+              "error_message": "Error: Node is detached from document\n    at CdpElementHandle.assertConnectedElement (C:\\Users\\Francisco\\OneDrive\\Escritorio\\proyecto_calidad\\Unit3\\manantial-back\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\ElementHandle.js:1266:23)\n    at async CdpElementHandle.scrollIntoView (C:\\Users\\Francisco\\OneDrive\\Escritorio\\proyecto_calidad\\Unit3\\manantial-back\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\ElementHandle.js:107:13)\n    at async CdpElementHandle.<anonymous> (C:\\Users\\Francisco\\OneDrive\\Escritorio\\proyecto_calidad\\Unit3\\manantial-back\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\ElementHandle.js:121:20)\n    at async CdpElementHandle.scrollIntoViewIfNeeded (C:\\Users\\Francisco\\OneDrive\\Escritorio\\proyecto_calidad\\Unit3\\manantial-back\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\ElementHandle.js:1278:13)\n    at async CdpElementHandle.click (C:\\Users\\Francisco\\OneDrive\\Escritorio\\proyecto_calidad\\Unit3\\manantial-back\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\ElementHandle.js:723:13)\n    at async CdpElementHandle.<anonymous> (C:\\Users\\Francisco\\OneDrive\\Escritorio\\proyecto_calidad\\Unit3\\manantial-back\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\ElementHandle.js:132:24)\n    at async CdpFrame.click (C:\\Users\\Francisco\\OneDrive\\Escritorio\\proyecto_calidad\\Unit3\\manantial-back\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\Frame.js:740:17)\n    at async World.<anonymous> (C:\\Users\\Francisco\\OneDrive\\Escritorio\\proyecto_calidad\\Unit3\\manantial-back\\test\\steps\\registrarEventoIncorrecto.step.js:26:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Clic boton eventos",
+            "match": {
+              "location": "test\\steps\\registrarEventoIncorrecto.step.js:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "no llenar",
+            "match": {
+              "location": "test\\steps\\registrarEventoIncorrecto.step.js:40"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "no debería registrarse el evento",
+            "match": {
+              "location": "test\\steps\\registrarEventoIncorrecto.step.js:49"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@crearEventoIncorrecto",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "funcionalidad--de-formulario-de-eventos",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Funcionalidad  de formulario de eventos",
+    "tags": [
+      {
+        "name": "@crearEventoIncorrecto",
+        "line": 1
+      }
+    ],
+    "uri": "features\\CrearEventoIncorrecto.feature"
+  },
+  {
+    "description": "   validad que se pueda crear un usuario datos correctos",
+    "elements": [
+      {
+        "description": "",
+        "id": "funcionalidad-de-la-creacion-del-usuario;creacion-exitoso",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "creacion exitoso",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Pagina de usuarios registrados",
+            "match": {
+              "location": "test\\steps\\CrearUsuario.step.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4123676800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Clic en agregar usuario",
+            "match": {
+              "location": "test\\steps\\CrearUsuario.step.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 651681599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "llenar datos",
+            "match": {
+              "location": "test\\steps\\CrearUsuario.step.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1578713500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "debería verse Owner created successfully",
+            "match": {
+              "location": "test\\steps\\CrearUsuario.step.js:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 711800
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CreaUsuarioValido",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "funcionalidad-de-la-creacion-del-usuario",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Funcionalidad de la creacion del usuario",
+    "tags": [
+      {
+        "name": "@CreaUsuarioValido",
+        "line": 1
+      }
+    ],
+    "uri": "features\\CrearUsuarioCorrectamente.feature"
+  },
+  {
+    "description": "   validar que no se pueda crear un usuario datos correctos",
+    "elements": [
+      {
+        "description": "",
+        "id": "funcionalidad-de-la-creacion-del-usuario;creacion-exitoso",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "creacion exitoso",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Pagina de usuarios registrados de usuarios",
+            "match": {
+              "location": "test\\steps\\CrearUsuarioIncorrecto.step.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3972068800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Clic en agregar usuario para registrar",
+            "match": {
+              "location": "test\\steps\\CrearUsuarioIncorrecto.step.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 920485300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "llenar datos del usuaio",
+            "match": {
+              "location": "test\\steps\\CrearUsuarioIncorrecto.step.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1793350300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "debería verse que no se registro",
+            "match": {
+              "location": "test\\steps\\CrearUsuarioIncorrecto.step.js:52"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5001952599,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\Francisco\\OneDrive\\Escritorio\\proyecto_calidad\\Unit3\\manantial-back\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CreaUsuarioNoValido",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "funcionalidad-de-la-creacion-del-usuario",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Funcionalidad de la creacion del usuario",
+    "tags": [
+      {
+        "name": "@CreaUsuarioNoValido",
+        "line": 1
+      }
+    ],
+    "uri": "features\\CrearUsuarioIncorrectamente.feature"
+  },
+  {
+    "description": "  Como usuario sin cuenta\n  Quiero iniciar sesión en la aplicación\n  y que no pueda ingresar",
+    "elements": [
+      {
+        "description": "",
+        "id": "funcionalidad-de-login;inicio-de-sesión-fallida",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Inicio de sesión fallida",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "iniciando pagina",
+            "match": {
+              "location": "test\\steps\\loginNoValido.steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3186533000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "ingreso credenciales no registradas",
+            "match": {
+              "location": "test\\steps\\loginNoValido.steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 706651599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "clic en el botón de iniciar sesión",
+            "match": {
+              "location": "test\\steps\\loginNoValido.steps.js:19"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 55999599,
+              "error_message": "TypeError: page.waitForTimeout is not a function\n    at World.<anonymous> (C:\\Users\\Francisco\\OneDrive\\Escritorio\\proyecto_calidad\\Unit3\\manantial-back\\test\\steps\\loginNoValido.steps.js:22:14)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "cierro la ventana emergente si aparece",
+            "match": {
+              "location": "test\\steps\\loginValido.steps.js:24"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "debería ver la página principal de la urbanización",
+            "match": {
+              "location": "test\\steps\\loginValido.steps.js:36"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@loginNoValido",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "funcionalidad-de-login",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Funcionalidad de Login",
+    "tags": [
+      {
+        "name": "@loginNoValido",
+        "line": 1
+      }
+    ],
+    "uri": "features\\loginNoValido.feature"
+  },
+  {
+    "description": "  Como usuario\n  Quiero iniciar sesión en la aplicación\n  Para acceder a funciones de la urbanización",
+    "elements": [
+      {
+        "description": "",
+        "id": "funcionalidad-de-login;inicio-de-sesión-exitoso",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Inicio de sesión exitoso",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "estoy en la página de inicio de sesión",
+            "match": {
+              "location": "test\\steps\\loginValido.steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3247214999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "ingreso credenciales válidas",
+            "match": {
+              "location": "test\\steps\\loginValido.steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 326047899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "hago clic en el botón de iniciar sesión",
+            "match": {
+              "location": "test\\steps\\loginValido.steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64740599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "cierro la ventana emergente si aparece",
+            "match": {
+              "location": "test\\steps\\loginValido.steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2469400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "debería ver la página principal de la urbanización",
+            "match": {
+              "location": "test\\steps\\loginValido.steps.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 284082099
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@loginValido",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "funcionalidad-de-login",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Funcionalidad de Login",
+    "tags": [
+      {
+        "name": "@loginValido",
+        "line": 1
+      }
+    ],
+    "uri": "features\\loginValido.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "funcionalidad--de-formulario-de-cobros;cobro-transferido",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "cobro transferido",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Pagina de usuarios registrados para cobros",
+            "match": {
+              "location": "test\\steps\\registrarCobros.step.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3937338400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Clic en cobros",
+            "match": {
+              "location": "test\\steps\\registrarCobros.step.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1400890800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "llenar datos para los cobros",
+            "match": {
+              "location": "test\\steps\\registrarCobros.step.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 268909200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "debería registrarse el cobro",
+            "match": {
+              "location": "test\\steps\\registrarCobros.step.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 574999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@registrarCobro",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "funcionalidad--de-formulario-de-cobros",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Funcionalidad  de formulario de cobros",
+    "tags": [
+      {
+        "name": "@registrarCobro",
+        "line": 1
+      }
+    ],
+    "uri": "features\\registrarCobros.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "funcionalidad--de-formulario-de-cobros-con-validacion;cobro-transferido",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "cobro transferido",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Pagina de usuarios registrados para cobros validados",
+            "match": {
+              "location": "test\\steps\\registrarCobrosIncorrecto.step.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4101804400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Clic en cobros de usuarios",
+            "match": {
+              "location": "test\\steps\\registrarCobrosIncorrecto.step.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1351029399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "llenar datos para los cobros incorrectamente",
+            "match": {
+              "location": "test\\steps\\registrarCobrosIncorrecto.step.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 362673399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "debería  no registrarse",
+            "match": {
+              "location": "test\\steps\\registrarCobrosIncorrecto.step.js:48"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 2022199,
+              "error_message": "Error: No element found for selector: #registrarPago\n    at assert (C:\\Users\\Francisco\\OneDrive\\Escritorio\\proyecto_calidad\\Unit3\\manantial-back\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\assert.js:18:15)\n    at CdpFrame.click (C:\\Users\\Francisco\\OneDrive\\Escritorio\\proyecto_calidad\\Unit3\\manantial-back\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\Frame.js:739:40)\n    at async World.<anonymous> (C:\\Users\\Francisco\\OneDrive\\Escritorio\\proyecto_calidad\\Unit3\\manantial-back\\test\\steps\\registrarCobrosIncorrecto.step.js:49:5)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@registrarCobroIncorrecto",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "funcionalidad--de-formulario-de-cobros-con-validacion",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Funcionalidad  de formulario de cobros con validacion",
+    "tags": [
+      {
+        "name": "@registrarCobroIncorrecto",
+        "line": 1
+      }
+    ],
+    "uri": "features\\registrarCobrosIncorrecto.feature"
+  }
+]
