@@ -1,5 +1,5 @@
 @CreaUsuarioNoValido
-Feature: Funcionalidad de la creacion del usuario 
+Feature: Funcionalidad de la creacion del usuario incorrecto
    validar que no se pueda crear un usuario datos correctos
 
   Scenario: creacion exitoso
