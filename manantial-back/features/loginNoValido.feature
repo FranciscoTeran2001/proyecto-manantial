@@ -1,5 +1,5 @@
 @loginNoValido
-Feature: Funcionalidad de Login
+Feature: Funcionalidad de Login invalido
   Como usuario sin cuenta
   Quiero iniciar sesión en la aplicación
   y que no pueda ingresar
