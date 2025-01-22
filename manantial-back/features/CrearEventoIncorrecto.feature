@@ -1,5 +1,5 @@
 @crearEventoIncorrecto
-Feature: Funcionalidad  de formulario de eventos
+Feature: Funcionalidad  de formulario de eventos incorrecto
   Scenario: crear un evento incorrecto
     Given pagina de usuarios para eventos para validar
     When Clic boton eventos
